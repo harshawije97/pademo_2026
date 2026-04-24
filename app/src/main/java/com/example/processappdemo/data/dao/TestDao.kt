@@ -8,7 +8,7 @@ import androidx.room.Query
 import com.example.processappdemo.data.model.TestEntity
 
 @Dao
-interface ITestDAO {
+interface TestDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(item: TestEntity)
 
