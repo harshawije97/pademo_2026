@@ -1,6 +1,5 @@
 package com.example.processappdemo.data.converter
 
-import androidx.compose.ui.semantics.Role
 import androidx.room.TypeConverter
 import com.example.processappdemo.data.model.UserRoles
 
