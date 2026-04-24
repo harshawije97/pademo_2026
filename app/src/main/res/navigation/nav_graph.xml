@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_dashboard">
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.processappdemo.fragments.DashboardFragment"/>
+    <fragment
+        android:id="@+id/nav_weighing"
+        android:name="com.example.processappdemo.fragments.WeighingFragment"
+        android:label="Weighing" />
+    <fragment
+        android:id="@+id/nav_workflow"
+        android:name="com.example.processappdemo.fragments.WorkflowFragment"
+        android:label="Workflow" />
+    <fragment
+        android:id="@+id/nav_sessions"
+        android:name="com.example.processappdemo.fragments.SessionFragment"
+        android:label="Sessions" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.processappdemo.fragments.ProfileFragment"
+        android:label="Profile" />
+</navigation>
